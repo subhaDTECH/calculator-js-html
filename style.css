@@ -1,0 +1,35 @@
+body{
+    background-color:rgba(0,0,0,0.9);
+    display: grid;
+    place-items: center;
+}
+input{
+   border: 1px solid blue;
+   padding: 10px 30px;
+   margin: 10px 5px;
+   font-size: 15px;
+}
+input:hover{
+    border: 1px solid skyblue;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.formstyle{
+  margin-top: 100px;
+}
+#answer{
+    width: 200px;
+    text-align: center;
+}
+form{
+    background-color: #efefef;
+    padding: 20px;
+}
+p{
+    color: #fff;
+}
+#clr{
+    background-color: rgb(11, 37, 24);
+    color: #fff;
+}
